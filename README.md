@@ -8,6 +8,9 @@ vm.max_map_count=262144
 sudo sysctl -p
 ```
 
+Поднимаем docker  
+docker-compose up -d  
+
 Keycloak, создать пользователя:  
 ```
 docker exec local_keycloak /opt/jboss/keycloak/bin/add-user-keycloak.sh  -u admin -p admin
