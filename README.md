@@ -18,6 +18,7 @@ docker restart local_keycloak
 ```
 
 Дальше надо разбираться, как заставить OpenSearch работать c keycloak - https://opensearch.org/docs/latest/security/authentication-backends/openid-connect/  
+https://github.com/cht42/opensearch-keycloak - Тут можно подсмотреть и настроить из его мануала    
 Параметры в конфигу добавил закоментил, не завелось!  
 
 Ссылки:
